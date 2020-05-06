@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Covid Tracker</string>
+
+    <string name="pref_language_key">language</string>
+    <string name="change_language">Choose Language</string>
+    <string name="Title">Title</string>
+    <string name="Date">Date</string>
+    <string name="Refresh">Refresh</string>
+    <string name="Search">Search</string>
+    <string name="NEXT">NEXT</string>
+    <string name="GET_STARTED">GET STARTED</string>
+    <string name="TotalCases">Total Cases</string>
+    <string name="Recovered">Recovered</string>
+    <string name="Deaths">Deaths</string>
+    <string name="Active">Active</string>
+    <string name="Cases">Cases</string>
+    <string name="Global_Stats">Global Stats</string>
+    <string name="Critical">Critical</string>
+    <string name="TodayCases">Today Cases</string>
+    <string name="TodayDeaths">Today Deaths</string>
+    <string name="TotalDeaths">Total Deaths</string>
+    <string name="AffectedCountries">Affected Countries</string>
+    <string name="TrackCountries">Track Countries</string>
+    <string name="Country">Country</string>
+    <string name="COVID_19_Tracker">Covid - 19 Tracker</string>
+    <string name="Nearbyme">Near by me</string>
+    <string name="Symptoms">Symptoms</string>
+    <string name="Prevention">Prevention</string>
+    <string name="Help">Help</string>
+    <string name="News">News</string>
+    <string name="Settings">Settings</string>
+
+</resources>

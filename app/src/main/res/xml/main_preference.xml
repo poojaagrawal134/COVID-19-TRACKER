@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <PreferenceCategory
+        android:key="user"
+        android:title="USER"
+        >
+        <EditTextPreference
+            android:dialogTitle="Your Name"
+            android:dialogMessage="Your Full name"
+            android:inputType="textCapWords"
+            android:key="key_full_name"
+            android:title="Name"
+            android:summary="Enter Name"
+            ></EditTextPreference>
+        <EditTextPreference
+            android:dialogTitle="Your Email"
+            android:dialogMessage="Your Email"
+            android:inputType="textCapWords"
+            android:key="key_email"
+            android:title="Email"
+            android:summary="Enter Email"
+            ></EditTextPreference>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="language"
+        android:title="Language"
+        >
+        <ListPreference
+            android:defaultValue="pref_color_red_value"
+            android:entries="@array/pref_language_option_labels"
+            android:entryValues="@array/options"
+            android:key="@string/pref_language_key"
+            android:title="@string/change_language" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="Notifications"
+        android:title="Notifications"
+        >
+        <SwitchPreference
+            android:key="test"
+            android:title="Allow Notification" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

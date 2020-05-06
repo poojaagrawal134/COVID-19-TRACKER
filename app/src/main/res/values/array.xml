@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>French</item>
+        <item>Urdu</item>
+    </string-array>
+    <string-array name="entry_values">
+        <item>English</item>
+        <item>Hindi</item>
+        <item>French</item>
+        <item>Urdu</item>
+    </string-array>
+    <string-array name="theme_entries">
+        <item>After 5 seconds</item>
+    </string-array>
+    <string-array name="entry_values2">
+        <item>5</item>
+    </string-array>
+    <array name="pref_language_option_labels">
+        <item>@string/pref_en</item>
+        <item>@string/pref_hindi</item>
+        <item>@string/pref_fren</item>
+        <item>@string/pref_germ</item>
+        <item>@string/pref_urd</item>
+    </array>
+
+    <array name="options">
+        <item>@string/pref_color_english_value</item>
+        <item>@string/pref_color_hindi_value</item>
+        <item>@string/pref_color_German_value</item>
+        <item>@string/pref_color_French_value</item>
+        <item>@string/pref_color_urdu_value</item>
+    </array>
+
+    <string name="pref_en">English</string>
+    <string name="pref_hindi">Hindi</string>
+    <string name="pref_fren">French</string>
+    <string name="pref_germ">German</string>
+    <string name="pref_urd">Urdu</string>
+    <string name="pref_color_english_value">English</string>
+    <string name="pref_color_hindi_value">Hindi</string>
+    <string name="pref_color_German_value">German</string>
+    <string name="pref_color_French_value">French</string>
+    <string name="pref_color_urdu_value">Urdu</string>
+</resources>
