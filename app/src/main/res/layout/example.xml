@@ -4,33 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/PRrXKa"
     android:layout_height="match_parent"
-    tools:context=".Details">
+    >
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="80dp"
         android:layout_marginBottom="10dp">
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textAlignment="center"
             android:fontFamily="sans-serif-light"
-            android:text="@string/Country"
+            android:text="GANGA"
             android:textStyle="bold"
-            android:textSize="18sp"/>
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="0"
-            android:id="@+id/Tvcountry"
-            android:textAlignment="textEnd"
-            android:textSize="18sp"
-            android:textColor="@color/color_one"
-            android:textStyle="bold"
-            android:fontFamily="sans-serif-light"
-            android:layout_alignParentRight="true"/>
+            android:textSize="35sp"/>
+
+
 
 
     </RelativeLayout>
@@ -57,16 +50,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="@string/Cases"
+            android:text="SOURCE"
             android:textStyle="bold"
-            android:textSize="18sp"/>
+            android:textSize="22sp"/>
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="0"
-            android:id="@+id/Tvcases"
+            android:text="Gaumukh(Gangotri)"
             android:textAlignment="textEnd"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textColor="@color/color_one"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
@@ -93,16 +85,53 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="@string/Active"
+            android:text="DESTINATION"
             android:textStyle="bold"
-            android:textSize="18sp"/>
+            android:textSize="22sp"/>
+
+        <TextView
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:fontFamily="sans-serif-light"
+            android:text="Bay of Bengal"
+            android:textAlignment="textEnd"
+            android:textColor="@color/color_one"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@color/color_two"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="LENGTH"
+            android:textStyle="bold"
+            android:textSize="22sp"/>
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="0"
-            android:id="@+id/Tvacrive"
+            android:text="2601 KM"
+
             android:textAlignment="textEnd"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textColor="@color/color_one"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
@@ -129,16 +158,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="@string/Critical"
+            android:text="AREA"
             android:textStyle="bold"
-            android:textSize="18sp"/>
+            android:textSize="22sp"/>
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="0"
-            android:id="@+id/Tvcritical"
+            android:text="8.6 lac sq. km"
+
             android:textAlignment="textEnd"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textColor="@color/color_one"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
@@ -165,16 +194,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="@string/Deaths"
+            android:text="MAJOR CITIES"
             android:textStyle="bold"
-            android:textSize="18sp"/>
+            android:textSize="22sp"/>
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="0"
-            android:id="@+id/Tvdeaths"
+            android:text="Haridwar\nRishikesh\n Varanasi"
+
             android:textAlignment="textEnd"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textColor="@color/color_one"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
@@ -201,16 +230,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="@string/TodayCases"
+            android:text="MAJOR GHATS"
             android:textStyle="bold"
-            android:textSize="18sp"/>
+            android:textSize="22sp"/>
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="0"
-            android:id="@+id/case1"
+            android:text="Assi Ghat \n Dashashwamedh Ghat"
+
             android:textAlignment="textEnd"
-            android:textSize="18sp"
+            android:textSize="20sp"
             android:textColor="@color/color_one"
             android:textStyle="bold"
             android:fontFamily="sans-serif-light"
@@ -232,73 +261,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginLeft="25dp"
         android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-light"
-            android:text="@string/TodayDeaths"
-            android:textStyle="bold"
-            android:textSize="18sp"/>
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="0"
-            android:id="@+id/case2"
-            android:textAlignment="textEnd"
-            android:textSize="18sp"
-            android:textColor="@color/color_one"
-            android:textStyle="bold"
-            android:fontFamily="sans-serif-light"
-            android:layout_alignParentRight="true"/>
-
-
-    </RelativeLayout>
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="1dp"
-        android:background="@color/color_two"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-
-        />
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp">
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-light"
-            android:text="@string/Recovered"
-            android:textStyle="bold"
-            android:textSize="18sp"/>
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="0"
-            android:id="@+id/Tvrec"
-            android:textAlignment="textEnd"
-            android:textSize="18sp"
-            android:textColor="@color/color_one"
-            android:textStyle="bold"
-            android:fontFamily="sans-serif-light"
-            android:layout_alignParentRight="true"/>
-
-
-    </RelativeLayout>
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="1dp"
-        android:background="@color/color_two"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-
-        />
-
+        android:layout_marginBottom="10dp"/>
 
 
 </LinearLayout>

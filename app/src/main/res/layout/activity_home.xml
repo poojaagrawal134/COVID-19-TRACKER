@@ -101,7 +101,7 @@
                             android:layout_gravity="center"
                             android:id="@+id/covid"
                             android:layout_marginLeft="30dp"
-                            android:text="@string/TotalCases"
+                            android:text="Total Cases"
                             android:textColor="#673AB7"
                             android:textSize="30sp"
                             android:textStyle="bold" />

@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 public class Details extends AppCompatActivity {
  private int positioncountry;
-    TextView country,cases,todaycases,deaths,todaydeaths,recovered,active,critical;
+    TextView country,cases,todayCases,deaths,todayDeaths,recovered,active,critical;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,8 +24,8 @@ public class Details extends AppCompatActivity {
         country=findViewById(R.id.Tvcountry);
 
         cases=findViewById(R.id.Tvcases);
-        todaycases=findViewById(R.id.Ttodaycases);
-        todaydeaths=findViewById(R.id.Tvtodaydeath);
+        todayCases=findViewById(R.id.case1);
+        todayDeaths=findViewById(R.id.case2);
         recovered=findViewById(R.id.Tvrec);
         active=findViewById(R.id.Tvacrive);
         critical=findViewById(R.id.Tvcritical);
@@ -34,8 +34,8 @@ public class Details extends AppCompatActivity {
         country.setText(Affectedcountry.countryModelList.get(positioncountry).getCountry());
         recovered.setText(Affectedcountry.countryModelList.get(positioncountry).getRecovered());
         active.setText(Affectedcountry.countryModelList.get(positioncountry).getActive());
-        todaydeaths.setText(Affectedcountry.countryModelList.get(positioncountry).getTodaydeaths());
-        todaycases.setText(Affectedcountry.countryModelList.get(positioncountry).getTodaycases());
+        todayDeaths.setText(Affectedcountry.countryModelList.get(positioncountry).getTodaydeaths());
+        todayCases.setText(Affectedcountry.countryModelList.get(positioncountry).getTodaycases());
         deaths.setText(Affectedcountry.countryModelList.get(positioncountry).getDeaths());
         cases.setText(Affectedcountry.countryModelList.get(positioncountry).getCases());
         critical.setText(Affectedcountry.countryModelList.get(positioncountry).getCritical());

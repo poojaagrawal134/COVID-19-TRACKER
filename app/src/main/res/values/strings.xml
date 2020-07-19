@@ -9,7 +9,7 @@
     <string name="Search">Search</string>
     <string name="NEXT">NEXT</string>
     <string name="GET_STARTED">GET STARTED</string>
-    <string name="TotalCases">Total Cases</string>
+
     <string name="Recovered">Recovered</string>
     <string name="Deaths">Deaths</string>
     <string name="Active">Active</string>
